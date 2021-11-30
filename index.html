@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chí Kiên</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        
+        h1 {
+            text-align: center;
+            top: 20%;
+            margin: 0%;
+            padding: 1%;
+            font-size: 50px;
+        }
+        
+        .TheH1 {
+            background-color: white;
+        }
+        
+        h2 {
+            font-size: 30px;
+            background-color: white;
+            padding: 1%;
+        }
+        
+        h3 {
+            font-size: 25px;
+        }
+        
+        .div1 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="TheH1">Cách làm 1 hàm riêng cho mình trong Microsoft Excel</h1>
+    <br><br><br>
+    <div>
+        <a href="#Part1">Phần 1</a><br>
+        <a href="#Part2">Phần 2</a>
+    </div>
+    <h2 id="Part1">I) Những thứ cần thiết để bắt đầu</h2>
+    <div class="div1">
+        <b>
+        <ol>
+            <li>Vào file góc trên bên trái của excel</li><br>
+            <img src="First.PNG" alt="Hình ảnh" width="400"><br><br>
+            <li>Vào phần Options ở góc trái bên dưới của excel</li><br>
+            <img src="Second.PNG" alt="Hình ảnh" width="400"><br><br>
+            <li>Tìm và nhấn vào Custumize Ribbon</li><br>
+            <img src="Third.PNG" alt="Hình ảnh" width="400"><br><br>
+            <li>Nhìn vào ô bên phải</li>
+            <img src="Fourth.PNG" alt="Hình ảnh" width="400"><br><br>
+            <li>Chắc chắn rằng phần Developer đã được tick(Nhớ tick luôn phần Add-ins)</li>
+            <img src="Fifth.PNG" alt="Hình ảnh" width="400"><br><br>
+        </ol>
+        </b>
+    </div>
+    <h2 id="Part2">II) Bắt đầu làm 1 hàm đơn giản</h2>
+    <a href="#The1">Phần 1</a><br>
+    <a href="#The2">Phần 2</a>
+    <h3 class="The1st" id="The1">1) Khởi tạo phần tạo hàm của Microsoft excel</h3>
+    <div class="div1">
+        <b>
+        <ol>
+            <li>Vào phần Developer trên dải những nhóm lệnh</li>
+            <img src="Sixth.PNG" alt="Hình ảnh" width="600"><br><br>
+            <li>Bấm vào Visual Basic</li>
+            <img src="Seventh.PNG" alt="Hình ảnh" width="550"><br><br>
+            <p style="font-size: 25px;">Lúc này nó hiện lên 1 màn hình giống như thế này(không giống lắm cũng không sao):<br><br></p>
+            <img src="lmao.PNG" alt="Hình ảnh" width="1000"><br><br>
+            <li>Nhấn vào Insert sau đó nhấn vào Module</li>
+            <img src="Eighth.PNG" alt="Hình ảnh" width="1000" style="top:0%">
+        </ol>
+        </b>
+    </div>
+    <h3 class="The1st" id="The2">2) Làm 1 hàm đơn giản và phân tích nó</h3>
+    <div class="div1">
+        <b>
+                Trên trang giấy trống mới tạo, copy rồi paste những gì ở dưới<br><br>
+                <div style="background-color: white;">
+                Public Function cong2so(soThuNhat As Integer, soThuHai As Integer)<br>
+                cong2so = soThuNhat + soThuHai<br>
+                End Function<br>
+                </div>
+                (Đó là 1 hàm, dùng để tính tổng 2 số)
+        </b>
+    </div><br><b> Ta phân tích những dòng lệnh trên kia như sau:<br><br></b> - "Public" có nghĩa là làm cho hàm đó có thể được dùng trong khi làm việc trên Microsoft Excel.<br><br> - "Function" là từ để báo hiệu rằng đó là 1 hàm.<br><br> - "cong2so" là
+    tên hàm.<br><br> - "soThuNhat As Integer, soThuHai As Integer" những thứ cần được thêm vào cho hàm: số thứ nhất, số thứ hai. Và 2 số đó là số nguyên(Integer).<br><br> Hàm trả lại 1 giá trị bằng tổng của "soThuNhat" và "soThuHai". Nên ta nói hàm đó
+    bằng "soThuNhat + soThuHai".<br><br> Ngoài ra, ta còn có thể thay đổi dấu "+"(cộng) bằng "-"(trừ),"*"(nhân),"/"(chia).<br><br>
+    <p style="font-size: 25px;"><b>Cảm ơn đã theo dõi đến đây, mong bạn học được điều gì đó. Nếu muốn tiếp tục làm về Microsoft Excel nữa thì.......</b></p>
+</body>
+
+</html>
